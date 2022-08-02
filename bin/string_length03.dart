@@ -7,6 +7,17 @@
     Returns:
         True or False
 */
+bool func(String s, String a){
+  int  z=s.length;
+  int  z1=a.length;
+  if (z==z1 ){
+    return true;
+  }
+  return false;
+}
+
 void main() {
   // write your code here
+  print(func('codde', 'exem'));
+  
 }
