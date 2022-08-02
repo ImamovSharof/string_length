@@ -5,7 +5,11 @@
         s: string
     Returns:
         string
-*/
+*/String func(String s){
+    String v= '*' * s.length; 
+  return v;
+}
 void main() {
+  print(func('code'));
   // write your code here
 }
