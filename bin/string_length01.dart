@@ -10,5 +10,5 @@ int func(String s){
 }
 void main() {
   // write your code here
-  print(func('Salom'));
+  print(func("python"));
 }
