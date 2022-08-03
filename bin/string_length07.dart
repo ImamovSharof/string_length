@@ -14,7 +14,7 @@ String func(String s1, String s2){
         return s1;
 
     }if (z1%1==0) {
-        return s2;
+         return s2;
     }else{
          return s2;
     }
