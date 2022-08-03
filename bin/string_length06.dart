@@ -7,6 +7,18 @@
     Returns:
         shortest string
 */
+String func(String s1, String s2){
+    int  z=s1.length;
+    int  z1=s2.length;
+    if (z<z1){
+      return s1;
+
+    }else{
+      return s2;
+    }
+}
+
 void main() {
   // write your code here
+  print(func('code','python'));
 }
