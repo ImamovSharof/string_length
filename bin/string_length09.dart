@@ -7,6 +7,16 @@
     Returns:
         str: answer
      */
+String func(String s1, String s2){
+  int z1=s1.length; 
+  int z2=s2.length;
+  if (z1>z2){
+    return s1+s2; 
+  }else{
+    return s1;
+  }
+}
 void main() {
   // write your code here
+  print(func("codeschool","dart"));
 }
