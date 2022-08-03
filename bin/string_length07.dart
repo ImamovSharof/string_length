@@ -7,6 +7,19 @@
     Returns:
         string
 */
+String func(String s1, String s2){
+    int  z=s1.length;
+    int  z1=s2.length;
+    if (z%2==0){
+        return s1;
+
+    }if (z1%1==0) {
+        return s2;
+    }else{
+        return s2;
+    }
+}    
 void main() {
   // write your code here
+  print(func('code','python'));
 }
